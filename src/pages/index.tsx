@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>TypeScript starter for Next.js</title>
+        <title>Cabin Crew Berlin</title>
         <meta
           name="description"
-          content="TypeScript starter for Next.js that includes all you need to build amazing apps"
+          content="Funk, Afro, Balkan Beats and more..."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -42,6 +42,10 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Soundcloud &rarr;</h2>
+          </a>
+
+          <a href="https://t.me/cabincrewberlin" className={styles.card}>
+            <h2>Telegram &rarr;</h2>
           </a>
 
           {/*
